@@ -34,7 +34,7 @@ Object extraction is performed using a high-frequency `yolov8s` model targeted s
 
 ---
 
-## 🧮 Mathematical Foundations & Collision State Logic
+## Mathematical Foundations & Collision State Logic
 
 ### Adaptive Scale-Agnostic Thresholding
 Instead of checking proximity using a rigid, fixed pixel radius—which breaks under varying aspect ratios, different video resolutions, or camera zoom variations—the tracker utilizes a dynamic boundary proximity limit. 
@@ -59,7 +59,7 @@ To ensure exact tracking metrics, the system implements a locked **Finite State 
 
 ---
 
-## ⚙️ Pipeline Configuration Matrix
+## Pipeline Configuration Matrix
 
 The pipeline's core tracking behavior is governed by the following hyperparameter profile:
 
@@ -74,7 +74,7 @@ The pipeline's core tracking behavior is governed by the following hyperparamete
 
 ---
 
-## 📊 Analytics Dashboards & Output Architecture
+## Analytics Dashboards & Output Architecture
 
 The system compiles processed metadata into comprehensive downstream deliverables:
 1. **Real-Time Heads-Up Display (HUD):** Generates an overlay stream showing active player status indicators, live score tallies, exact bounding boxes, and an interactive distance vector line connecting targets that shifts dynamically to green when a hit registers.
